@@ -1,13 +1,18 @@
+"use strict";
 
-export default function({ types: t }) {
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+exports.default = function (_ref) {
+	var t = _ref.types;
+
 	return {
 		visitor: {
-			Program(path) {
-				path.unshiftContainer("body",
-						t.expressionStatement(t.stringLiteral("fileid ?"))
-					);
+			Program: function Program(path) {
+				path.unshiftContainer("body", t.expressionStatement(t.stringLiteral("fileid ?")));
 			}
 		}
 	};
-}
+};
 
