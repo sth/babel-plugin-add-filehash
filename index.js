@@ -12,7 +12,8 @@ exports.default = function (_ref) {
 			Program: function Program(path, state) {
 				var hash = crypto.createHash('sha1');
 				hash.update(state.file.code);
-				path.unshiftContainer("body", t.expressionStatement(t.stringLiteral("filehash " + hash.digest('base64'))));
+				var hashstmt = t.expressionStatement(t.stringLiteral("filehash " + hash.digest('base64')));
+				path.pushContainer("body", hashstmt);
 			}
 		}
 	};
