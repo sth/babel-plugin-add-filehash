@@ -2,7 +2,7 @@
   "name": "babel-plugin-add-filehash",
   "version": "6.9.0",
   "description": "Adds a hash of the input file content to the output file. This ensures the output file changes even if there were only whitespace changes or other minor syntactical changes in the input. When used from webpack, this makes sure webpack re-evaluates the file and shows updated eslint messages whenever the input file changes.",
-  "repository": "",
+  "repository": "sth/babel-plugin-add-filehash",
   "license": "MIT",
   "main": "lib/index.js",
   "keywords": [
