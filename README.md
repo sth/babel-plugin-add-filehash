@@ -1,13 +1,16 @@
 # babel-plugin-add-filehash
 
 This Babel plugin makes sure the Babel output changes whenever the input
-file changes. This works around a webpack bug that loses error messages
-on "unchanged" files: https://github.com/webpack/webpack/issues/2538
+file changes, even if it are only trivial/whitespace changes.
+
+This makes sure subsequent tools like webpack reprocess the file and
+show updated eslint messages/...  It specificall works around a webpack
+bug that loses error messages on "unchanged" files: https://github.com/webpack/webpack/issues/2538
 
 ## Installation
 
 ```shell
-npm install https://github.com/sth/babel-plugin-add-filehash
+npm install babel-plugin-add-filehash
 ```
 
 ## Usage
