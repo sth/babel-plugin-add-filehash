@@ -7,7 +7,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "keywords": [
-    "babel-plugin"
+    "babel-plugin", "eslint"
   ],
   "scripts": {
     "build": "babel src --out-dir lib",
