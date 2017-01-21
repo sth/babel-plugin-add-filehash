@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-add-filehash",
-  "version": "6.9.1",
-  "description": "Babel plugin that makes sure the Babel output changes whenever the input file changes.",
+  "version": "6.9.2",
+  "description": "Makes sure Babel output changes whenever the input file changes.",
 
   "repository": "sth/babel-plugin-add-filehash",
   "license": "MIT",
