@@ -19,13 +19,8 @@ Or with yarn:
 yarn --dev babel-plugin-add-filehash
 ```
 
-## Usage
-
-For general info about using Babel plugins see the [Babel handbook][1].
-
-### Via `.babelrc` (Recommended)
-
-Add the plugin to your projects `.babelrc`:
+After installation of the package you need to add the plugin to
+your project's `.babelrc`:
 
 ```json
 {
@@ -33,13 +28,8 @@ Add the plugin to your projects `.babelrc`:
 }
 ```
 
-### Via Node API
+For more general info about using Babel plugins see the [Babel handbook][1].
 
-```javascript
-require("babel-core").transform("code", {
-  plugins: ["add-filehash"]
-});
-```
 
  [1]: https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/user-handbook.md#manually-specifying-plugins
 
