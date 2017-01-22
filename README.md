@@ -9,8 +9,14 @@ bug that loses error messages on "unchanged" files: https://github.com/webpack/w
 
 ## Installation
 
+With npm:
 ```shell
-npm install babel-plugin-add-filehash
+npm install --save-dev babel-plugin-add-filehash
+```
+
+Or with yarn:
+```shell
+yarn --dev babel-plugin-add-filehash
 ```
 
 ## Usage
