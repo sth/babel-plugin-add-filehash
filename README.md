@@ -16,7 +16,7 @@ npm install --save-dev babel-plugin-add-filehash
 
 Or with yarn:
 ```shell
-yarn --dev babel-plugin-add-filehash
+yarn add --dev babel-plugin-add-filehash
 ```
 
 After installation of the package you need to add the plugin to
