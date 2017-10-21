@@ -3,9 +3,10 @@
 This Babel plugin makes sure the Babel output changes whenever the input
 file changes, even if it are only trivial/whitespace changes.
 
-This makes sure subsequent tools like webpack reprocess the file and
-show updated eslint messages/...  It specificall works around a webpack
-bug that loses error messages on "unchanged" files: https://github.com/webpack/webpack/issues/2538
+This was necessary to make Webpack show updated eslint messages/... on
+"unchanged" files until webpack/webpack#2538 got fixed. This happened in
+Webpack v3.5.4 and now this plugin isn't necessary anymore for this
+usecase.
 
 ## Installation
 
