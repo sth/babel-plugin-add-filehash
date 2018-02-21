@@ -3,10 +3,12 @@
 This Babel plugin makes sure the Babel output changes whenever the input
 file changes, even if it are only trivial/whitespace changes.
 
-This was necessary to make Webpack show updated eslint messages/... on
+## Obsolete Use Case
+
+Forcing babel output changes was necessary to make Webpack show updated eslint messages/... on
 "unchanged" files until [webpack/webpack#2538][issue2538] got fixed. This happened in
 Webpack v3.5.4 and now this plugin isn't necessary anymore for this
-usecase.
+use case.
 
 ## Installation
 
