@@ -6,11 +6,12 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "@babel/core": "^7.6.0",
+    "babel-loader": "^8.0.6",
     "babel-plugin-add-filehash": "file:./..",
-    "eslint": "^4.9.0",
-    "eslint-loader": "^1.9.0",
-    "webpack": "^3.8.1"
+    "eslint": "^6.3.0",
+    "eslint-loader": "^3.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
   }
 }
