@@ -1,4 +1,3 @@
-
 const crypto = require('crypto');
 
 export default function({ types: t }) {
@@ -13,4 +12,3 @@ export default function({ types: t }) {
 		}
 	};
 }
-

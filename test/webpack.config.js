@@ -1,6 +1,6 @@
 
 module.exports = {
-	mode: 'development',
+	mode: 'production',
 	entry: './input.js',
 	output: { filename: './output.js' },
 	module: {
