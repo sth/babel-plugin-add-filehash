@@ -1,6 +1,5 @@
 node_modules
 lib
 test/output.js
-CHANGELOG.raw.md
 
 *.swp
