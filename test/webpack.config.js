@@ -2,7 +2,10 @@
 module.exports = {
 	mode: 'development',
 	entry: './input.js',
-	output: { filename: './output.js' },
+	output: {
+		path: __dirname,
+		filename: './output.js'
+	},
 	module: {
 		rules: [
 			{
