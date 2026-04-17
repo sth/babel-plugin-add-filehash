@@ -3,6 +3,11 @@
 This Babel plugin makes sure the Babel output changes whenever the input
 file changes, even if it are only trivial/whitespace changes.
 
+## NOT SUPPORTED ANYMORE
+
+This repository will be archived because I don't habe a use case for it anymore and
+I am not sure if it actually still does what it claims to do.
+
 ## Obsolete Use Case
 
 Forcing babel output changes was necessary to make Webpack show updated eslint messages/... on
